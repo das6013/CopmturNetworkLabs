@@ -1,0 +1,142 @@
+body{
+    margin:0;
+}
+
+.header_text {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    vertical-align:middle;
+    margin:0;
+}
+.margin_div {
+    margin:0 30px 10px 30px;
+}
+.container {
+    background-color: blue;
+    width: 600px;
+    height: 660px;
+    margin: 0 auto;
+}
+.header_text_content {
+    font-family: Arial;
+    margin-top:0;
+    color: white;
+    padding-top: 10px;
+}
+.text_message{
+    margin: 20px 0 10px 0;
+    font-family:Arial;
+    font-size: 17px;
+    color:white;
+}
+.setting_frame {
+    width: 90px;
+    height: 90px;
+    border: 5px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 0;
+    float: left;
+    margin:0 20px 30px 0;
+}
+.link_text {
+    color: deeppink;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom:0;
+}
+.span_text {
+    color: deeppink;
+}
+.span_size_text {
+    color: white;
+    font-size: 30px;
+}
+
+p {
+    font-family: Arial;
+    color: white;
+    font-size: 18px;
+    margin:0;
+}
+br {
+    color: white;
+    margin-left: 30px;
+}
+li {
+    margin:0;
+    color: white;
+    margin-bottom: 5px;
+}
+li span:hover{
+    color:aqua;
+    font-family:Arial;
+    letter-spacing:5px;
+}
+.flex_div{
+    display:flex;
+    justify-content: space-between;
+    margin-right:30px;
+    margin-left:30px;
+}
+.tabl {
+    max-height: 120px;
+    border: 1px solid #fff;
+}
+td.col1{
+    background:green;
+}
+td.col7 {
+    background: red;
+}
+.cell {
+    font-size:20px;
+    font-family:Arial;
+    text-align: center;
+    vertical-align: bottom;
+    color: white;
+    border: 1px solid #fff;
+    height:40px;
+    width:50px;
+}
+img{
+    margin-left:150px;
+    margin-top:10px;
+}
+.footer_text {
+    font-family: Arial;
+    color: white;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.colorRect {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.fonts {
+    list-style-type: none;
+    margin: 0;
+    padding-inline-start: 0 ;
+    font-size: 20px;
+}
+.fonts li{
+    margin-bottom: 20px;
+}
+.fonts li:last-child
+{
+    margin-top:23px;
+    margin-bottom:  0;
+}
+.b_header_name{
+    margin-bottom: 10px;
+}
