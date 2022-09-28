@@ -1,0 +1,53 @@
+body
+{
+    margin:0;
+}
+.conteiner
+{
+    display:flex;
+}
+.conteiner_LeftColumn
+{
+    max-width: 200px;
+    background: #b4e288
+}
+.color__span
+{
+    color: red;
+}
+.column__text
+{
+    margin:0;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0 7px;
+}
+.header
+{
+    background: #EAEAEA;
+    height: 70px;
+}
+.header__text
+{
+    padding-left: 9px;
+    padding-top: 9px;
+    margin: 0;
+}
+.link__text
+{
+    text-align: center;
+    vertical-align: middle;
+}
+a
+{
+    color: #FFFF80;
+}
+.footer
+{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background: black;
+}
