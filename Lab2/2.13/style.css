@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .root
+  {
+    background: aqua;
+    border: 1px solid black;
+    display: flex;
+    font-size: 12px;
+  }
+ .list
+ {
+    background: bisque;
+    max-width: 300px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+.container
+{
+    background: darkgray;
+  }
+.flex
+{
+    display: flex;
+  }
+   img
+   {
+    float: right;
+    min-width: 50%;
+  }
+.texts
+ {
+    background: darkgray;
+  }
