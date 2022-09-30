@@ -1,0 +1,16 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+p
+{
+    color: white;
+    background: blue;
+    width: 600px;
+    min-width: 300px;
+}
+img
+{
+    float: right;
+}
