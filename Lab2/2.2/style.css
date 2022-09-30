@@ -1,18 +1,23 @@
 body
 {
     margin:0;
-    height: 100%;
 }
 .conteiner
 {
-    display:flex;
-    align-content: center;
+    display: flex;
+    align-items: flex-start;
 }
-.conteiner_LeftColumn
+.conteiner__LeftColumn
+{
+    max-width: 25%;
+    display: inline-flex;
+    background: #C8FC98
+}
+.conteiner__RightColumn
 {
     max-width: 200px;
-    background: #C8FC98;
-    min-height: 700px;
+    background: #FDE95E;
+    min-height: 685px;
 }
 .color__span
 {
@@ -24,17 +29,16 @@ body
     font-style: normal;
     font-weight: normal;
     padding: 0 7px;
-    align-items: flex-end;
 }
 .header
 {
     background: #EAEAEA;
-    height: 59px;
+    height: 70px;
 }
 .header__text
 {
-    padding-left: 9px;
-    padding-top: 9px;
+    padding-left: 7px;
+    padding-top: 7px;
     margin: 0;
 }
 .link__text
@@ -52,6 +56,6 @@ a
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30px;
+    height: 37px;
     background: black;
 }
